@@ -1,0 +1,85 @@
+body {
+	font-family: Segoe UI;
+	background-color: #e8e6e6;
+}
+
+header {
+	color: #000000;
+	font-family: Lucida Console;
+	font-size: 25px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.gei {
+	animation: gei 10s linear;
+	animation-iteration-count: infinite;
+}
+
+@keyframes gei{
+		100%,0%{
+			color: rgb(255,0,0);
+		}
+		8%{
+			color: rgb(255,127,0);
+		}
+		16%{
+			color: rgb(255,255,0);
+		}
+		25%{
+			color: rgb(127,255,0);
+		}
+		33%{
+			color: rgb(0,255,0);
+		}
+		41%{
+			color: rgb(0,255,127);
+		}
+		50%{
+			color: rgb(0,255,255);
+		}
+		58%{
+			color: rgb(0,127,255);
+		}
+		66%{
+			color: rgb(0,0,255);
+		}
+		75%{
+			color: rgb(127,0,255);
+		}
+		83%{
+			color: rgb(255,0,255);
+		}
+		91%{
+			color: rgb(255,0,127);
+		}
+}
+
+nav {
+	width: 225px;
+	border-bottom: 4px solid black;
+	background-color: #d3d3d3
+}
+
+a {
+	text-decoration: none;
+}
+
+
+main {
+	border-top: 4px solid black;
+	text-shadow: 2px 2px #000000;
+	font-size: 50px;
+	color: white;
+	padding: 150px;
+	background-image: url("programowanie.jpg");
+	background-color: #cccccc;
+	height: 125px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-bottom: 4px solid black;
+}
+
+#blok_2 {
+	font-size: 25px;
+}
