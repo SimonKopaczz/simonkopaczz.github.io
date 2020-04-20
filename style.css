@@ -1,0 +1,46 @@
+body {
+	background-color: black;
+	color: white;
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+}
+
+nav {
+	position: sticky;
+	top: 0;
+}
+
+ul {
+	padding: 0;
+	list-style: none;
+}
+
+ul li {
+	display: inline-block;
+}
+
+img.inicjaly {
+	width: 25%;
+	border-style: inset;
+	border-color: #00008D;
+	border-width: 15px;
+}
+
+img.historia {
+	width: 50%;
+	border-radius: 20%;
+}
+
+header {
+	font-size: 72px;
+	color: cyan;
+}
+
+table {
+	border: 5px solid white;
+}
+
+textarea {
+	width: 550px;
+	height: 200px;
+}
