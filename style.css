@@ -36,8 +36,8 @@ header {
 	color: cyan;
 }
 
-table {
-	border: 5px solid white;
+table, th, td {
+	border: 3px solid white;
 }
 
 textarea {
