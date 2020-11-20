@@ -1,9 +1,10 @@
 body {
-	background-color: #939995;
+	background-image: url("headsety-tlo.png");
 	font-family: Calibri;
 }
 
 header {
+	color: white;
 	text-align: center;
 	font-size: 28px;
 	font-style: italic;
