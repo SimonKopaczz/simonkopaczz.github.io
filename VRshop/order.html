@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>VRshop - twój wirtualny sklep</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<img src="logo.gif">
+		<p>Twój wirtualny sklep!</p>
+	</header>
+	<nav>
+		<a class="przycisk" href="index.html">Start</a>
+		<a class="przycisk" href="order.html">Zamów</a>
+		<a class="przycisk" href="kontakt.html">Kontakt</a>
+	</nav>
+	<div class="bruh">Zamów</div>
+	<section>
+	<form action="mailto:kontakt@vrshop.pl" method="post" enctype="text/plain">
+	Imię: <input name="imie"> &nbsp;
+	Nazwisko: <input name="nazwisko"><br>
+	Adres e-mail: <input name="email"><br>
+	Wybierz przedmioty do zamówienia: (przytrzymaj control w celu zamówienia kilku. ) (dokładne opisy każdego na stronie głównej)<br>
+	<select name="order" multiple size="7">
+	<option>Valve Index</option>
+	<option>Oculus Quest 2</option>
+	<option>Oculus Rift S</option>
+	<option>HTC Vive Cosmos</option>
+	<option>HTC Vive Cosmos Elite</option>
+	<option>HP Reverb G2</option>
+	<option>HTC Vive Tracker</option>
+	<option>HTC Vive Base Station 2.0</option>
+	<option>VR Cover</option>
+	Notatki do zamówienia:<br> <textarea name="wiadomosc" cols="50" rows="5">Miejsce na notatki....</textarea><br>
+	<input type="submit" value="Wyślij">
+	<input type="reset" value="Wyczyść">
+	</form>
+	</section>
+	<div class="bruh"><br></div>
+	<footer>
+		<P>Copyright &#169; VRshop 2020</P>
+	</footer>
+</body>
+</html>

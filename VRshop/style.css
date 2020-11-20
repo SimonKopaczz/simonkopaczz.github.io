@@ -1,0 +1,111 @@
+body {
+	background-color: #939995;
+	font-family: Calibri;
+}
+
+header {
+	text-align: center;
+	font-size: 28px;
+	font-style: italic;
+}
+
+nav {
+	background-color: #cdcfd1;
+	text-align: center;
+	font-size: 45px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.przycisk {
+	padding: 15px;
+	color: black;
+	background-color: white;
+	text-align: center;
+	text-decoration: none;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+
+.przycisk:hover {
+	padding: 15px;
+	color: black;
+	background-color: white;
+	text-align: center;
+	text-decoration: none;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.bruh {
+	background-color: #c0c2c4;
+	padding: 10px;
+	text-align: center;
+	font-size: 32px;
+	padding-bottom: 30px;
+}
+
+
+.back {
+	width: 10%;
+	padding: 10px;
+	color: black;
+	background-color: white;
+	text-align: center;
+	text-decoration: none;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+
+.back:hover {
+	width: 10%;
+	padding: 10px;
+	color: black;
+	background-color: white;
+	text-align: center;
+	text-decoration: none;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+section {
+	background-color: #b5bab6;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.description {
+	background-color: #b5bab6;
+	padding: 10px;
+}
+
+.description img {
+	height: 400px;
+	width: 650px;
+}
+
+.literka {
+	width: 33%;
+	padding: 50px;
+}
+
+section img {
+	height: 150px;
+	width: 200px;
+	border: 2px solid #b5bab6;
+	border-radius: 15px;
+}
+
+section img:hover {
+	height: 150px;
+	width: 200px;
+	border: 2px solid black;
+	border-radius: 15px;
+}
+
+footer {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
