@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Pizzashop - najlepsza pizza w mieście!</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<img src="logo.png">
+		<p>Najlepsza pizza w mieście!</p>
+	</header>
+	<nav>
+		<a class="przycisk" href="index.html">Start</a>
+		<a class="przycisk" href="menu.html">Menu</a>
+		<a class="przycisk" href="order.html">Zamów</a>
+		<a class="przycisk" href="kontakt.html">Kontakt</a>
+	</nav>
+	<div class="bruh">Zamów</div>
+	<div class="papa"><div class="nananatrzy">
+	<form action="mailto:kontakt@pizzashop.pl" method="post" enctype="text/plain">
+	Imię: <input name="imie"> &nbsp;
+	Nazwisko: <input name="nazwisko"><br>
+	Adres: <input name="adres"><br>
+	Numer telefonu: <input type="number" name="numer"><br>
+	Wybierz pizze do zamówienia: (przytrzymaj control w celu zamówienia kilku. ) (dokładne opisy każdej w menu)<br>
+	<select name="order" multiple size="7">
+	<option>Pizza Margherita</option>
+	<option>Pizza Tradycyjna</option>
+	<option>Pizza Salami</option>
+	<option>Pizza Hawajska</option>
+	<option>Pizza Kebab</option>
+	<option>Pizza Capriciosa</option>
+	Notatki do zamówienia:<br> <textarea name="wiadomosc" cols="50" rows="7">Miejsce na notatki....</textarea><br>
+	<input type="submit" value="Wyślij">
+	<input type="reset" value="Wyczyść">
+	</form>
+	</div>
+	</div>
+	<div class="bruh"><br></div>
+	<footer>
+		<P>Copyright &#169; Szymon Kopacz 2021</P>
+	</footer>
+</body>
+</html>

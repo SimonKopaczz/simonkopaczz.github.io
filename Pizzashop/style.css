@@ -1,0 +1,143 @@
+body {
+	background: url("pizza-tlo.jpg") no-repeat center fixed;
+	font-family: Calibri;
+	background-size: cover;
+	color: white;
+}
+
+header {
+	text-align: center;
+	font-size: 28px;
+	font-style: italic;
+}
+
+nav {
+	background-color: #6e1717;
+	text-align: center;
+	font-size: 45px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.przycisk {
+	padding: 15px;
+	color: black;
+	background-color: white;
+	text-align: center;
+	text-decoration: none;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+
+.przycisk:hover {
+	padding: 15px;
+	color: black;
+	background-color: white;
+	text-align: center;
+	text-decoration: none;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.bruh {
+	background-color: #b01313;
+	padding: 10px;
+	text-align: center;
+	font-size: 32px;
+	padding-bottom: 30px;
+}
+
+
+.back {
+	width: 10%;
+	padding: 10px;
+	color: black;
+	background-color: white;
+	text-align: center;
+	text-decoration: none;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+
+.back:hover {
+	width: 10%;
+	padding: 10px;
+	color: black;
+	background-color: white;
+	text-align: center;
+	text-decoration: none;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.papa {
+	background-color: #852424;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.description {
+	background-color: #852424;
+	padding: 10px;
+}
+
+.description img {
+	height: 400px;
+	width: 650px;
+}
+
+.literka {
+	width: 33%;
+	padding: 50px;
+}
+
+.papa img {
+	height: 150px;
+	width: 200px;
+	border: 2px solid #852424;
+	border-radius: 15px;
+}
+
+.papa img:hover {
+	height: 150px;
+	width: 200px;
+	border: 2px solid black;
+	border-radius: 15px;
+}
+
+.papadwa {
+	background-color: #852424;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+footer {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+.nanana {
+	font-size: 52px;
+}
+
+.nananadwa {
+	font-size: 42px;
+}
+
+.nananatrzy {
+	font-size: 31px;
+}
+
+input, select, textarea {
+  background-color: #b01313;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
